@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="nb-NO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Les om ansvarlig spilling hos Robocat Casino. Vi er opptatt av at alle spillere skal ha en trygg og positiv spillopplevelse på vår offisielle nettside i Norge.">
+  <title>Ansvarlig Spilling – Robocat Casino Norge</title>
+  <link rel="canonical" href="/responsible-gambling/">
+  <link rel="icon" type="image/x-icon" href="../robocat images/favicon (4).ico">
+  <style>
+    :root {
+      --header-footer: #4600ae;
+      --header-btn: #39cc20;
+      --cta-btn: #39cc20;
+      --bg-main: #f7f4fb;
+      --text-dark: #1d1238;
+      --card-bg: #ffffff;
+      --muted: #5d4a85;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      background: var(--bg-main);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--header-footer);
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      box-shadow: 0 8px 20px rgba(30, 8, 70, 0.25);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.7rem 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      text-decoration: none;
+      color: #fff;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 54px;
+      height: 54px;
+      object-fit: contain;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 5px;
+    }
+
+    .brand span {
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-left: auto;
+      margin-right: 0.5rem;
+    }
+
+    .header-nav a {
+      color: #e9ddff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .header-nav a:hover { text-decoration: underline; }
+
+    .header-actions {
+      display: flex;
+      gap: 0.55rem;
+      flex-shrink: 0;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 0.56rem 1rem;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.06);
+    }
+
+    .btn-header {
+      background: var(--header-btn);
+      color: #052300;
+    }
+
+    section {
+      padding: 1rem 0 1.4rem;
+    }
+
+    .seo-block {
+      background: #fff;
+      border-radius: 16px;
+      padding: 1rem 1rem 1.1rem;
+      box-shadow: 0 8px 20px rgba(65, 20, 140, 0.09);
+      overflow-wrap: anywhere;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      color: #210e45;
+      line-height: 1.25;
+    }
+
+    .seo-block h2 {
+      margin-top: 1rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .seo-block h3 {
+      margin-top: 0.7rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .seo-block ul,
+    .seo-block ol {
+      padding-left: 1.25rem;
+      margin-top: 0.4rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .seo-block table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 560px;
+      margin: 0.4rem 0 0.9rem;
+      display: block;
+      overflow-x: auto;
+    }
+
+    .seo-block th,
+    .seo-block td {
+      border: 1px solid #e6daf8;
+      padding: 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .seo-block th { background: #f1e9ff; }
+
+    .page-updated {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #3a2866;
+      padding: 0.35rem 0 1.2rem;
+    }
+
+    footer {
+      background: var(--header-footer);
+      color: #fff;
+      padding: 1.2rem 0 1rem;
+    }
+
+    .trust-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(120px, 180px));
+      justify-content: center;
+      gap: 0.7rem;
+      margin-bottom: 1rem;
+    }
+
+    .trust-row a {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 0.55rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 64px;
+    }
+
+    .trust-row img {
+      max-height: 42px;
+      object-fit: contain;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.8rem 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-links a {
+      color: #ebe0ff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.93rem;
+    }
+
+    .footer-links a:hover { text-decoration: underline; }
+
+    .providers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .footer-providers {
+      margin: 0 auto 1rem;
+      max-width: 980px;
+    }
+
+    .provider-card {
+      background: rgba(255, 255, 255, 0.14);
+      border-radius: 12px;
+      padding: 0.6rem;
+      min-height: 62px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .provider-card img {
+      max-height: 46px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .copyright {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #f2e9ff;
+      margin: 0;
+    }
+
+    @media (max-width: 900px) {
+      .header-inner { padding: 0.45rem 0; }
+
+      .brand img {
+        width: 36px;
+        height: 36px;
+        border-radius: 7px;
+        padding: 3px;
+      }
+
+      .brand span,
+      .header-nav { display: none; }
+
+      .header-actions .btn {
+        padding: 0.42rem 0.72rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .trust-row {
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+
+      .seo-block table { min-width: 480px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="../index.html" aria-label="Robocat Casino hjem">
+        <img src="../robocat images/robocat logo.webp" alt="Robocat logo">
+        <span>Robocat</span>
+      </a>
+
+      <nav class="header-nav" aria-label="Hovedmeny">
+        <a href="../bonus/">Kampanjer</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="../login/" class="btn btn-header">Logg inn</a>
+        <a href="/go/" class="btn btn-header">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section>
+      <div class="container seo-block">
+
+<h1>Ansvarlig Spilling hos Robocat Casino</h1>
+
+<p>Hos Robocat Casino er ansvarlig spilling en av våre aller høyeste prioriteringer. Som en offisiell aktør i Norge er vi forpliktet til å tilby et trygt, rettferdig og ansvarlig spillmiljø for alle våre spillere. Vi ønsker at alle som besøker vår offisielle nettside i Norge skal ha en morsom og underholdende opplevelse, uten at spilling skal gå utover privatøkonomi, helse eller sosiale relasjoner. Vi tror på at ansvarlig spilling ikke bare er et lovkrav, men en grunnleggende verdi som gjennomsyrer alt vi gjør.</p>
+
+<h2>Hva er ansvarlig spilling?</h2>
+
+<p>Ansvarlig spilling handler om å holde spilling som en form for underholdning, og ikke la det bli et problem. Vi mener at spilling skal være gøy, og at det alltid skal skje innenfor trygge rammer. Ansvarlig spilling innebærer at du setter grenser for deg selv, at du spiller for penger du har råd til å tape, og at du aldri jakter tap. Det betyr også at du er bevisst på tegnene på problematisk spilleatferd, og at du vet hvor du kan få hjelp dersom du trenger det.</p>
+
+<p>Vi oppfordrer alle våre spillere til å stille seg selv disse spørsmålene jevnlig:</p>
+
+<ul>
+<li>Spiller jeg for mer penger enn jeg har råd til å tape?</li>
+<li>Bruker jeg spilling som en flukt fra problemer i hverdagen?</li>
+<li>Forsøker jeg å vinne tilbake penger jeg allerede har tapt?</li>
+<li>Har spilling begynt å påvirke mitt familieliv, arbeidsliv eller sosiale liv negativt?</li>
+<li>Lyver jeg for andre om hvor mye jeg spiller eller taper?</li>
+</ul>
+
+<p>Dersom du svarer ja på ett eller flere av disse spørsmålene, anbefaler vi deg å ta kontakt med en av hjelpeorganisasjonene vi lister opp nedenfor, eller å benytte deg av våre selvhjelpsverktøy.</p>
+
+<h2>Våre verktøy for ansvarlig spilling</h2>
+
+<p>Hos Robocat Casino tilbyr vi en rekke verktøy som er designet for å hjelpe deg med å holde kontrollen over spillingen din. Vi er stolte av å gi våre spillere muligheten til å sette personlige grenser og ta ansvarlige valg.</p>
+
+<h3>Innskuddsgrenser</h3>
+<p>Vi gir deg muligheten til å sette daglige, ukentlige eller månedlige innskuddsgrenser på kontoen din. Dette er et effektivt verktøy for å sikre at du aldri setter inn mer penger enn du er komfortabel med. Grensene trer i kraft umiddelbart, og dersom du ønsker å øke en grense, vil det alltid gå en venteperiode før endringen gjennomføres.</p>
+
+<h3>Tapsgrenser</h3>
+<p>I tillegg til innskuddsgrenser kan du også sette tapsgrenser. Dette betyr at du kan bestemme deg for maksimalt beløp du er villig til å tape i løpet av en gitt periode. Når grensen er nådd, vil du ikke lenger kunne spille for ekte penger i den aktuelle perioden.</p>
+
+<h3>Øktgrenser og tidsgrenser</h3>
+<p>Vi vet at det kan være lett å miste oversikten over tid når man spiller. Derfor tilbyr vi tidsgrenser som varsler deg etter en bestemt spilløkt, slik at du alltid er bevisst på hvor lenge du har spilt. Du kan selv bestemme varigheten på øktene dine.</p>
+
+<h3>Selveksklusjon</h3>
+<p>Dersom du føler at du trenger en pause fra spilling, kan du benytte deg av vår selveksklusjonstjeneste. Du kan velge å ekskludere deg selv fra Robocat Casino i en periode du selv velger, enten det er noen uker, måneder eller på permanent basis. Under selveksklusjonen vil du ikke ha tilgang til spillkontoen din, og vi vil ikke sende deg markedsføring.</p>
+
+<p>Vi er også tilknyttet <strong>Spill uten om</strong> og andre nasjonale eksklusjonsregistre i Norge, som gir deg muligheten til å ekskludere deg fra flere spilloperatører samtidig.</p>
+
+<h3>Realitetssjekk</h3>
+<p>Vår realitetssjekk-funksjon sender deg regelmessige påminnelser om hvor lenge du har spilt og hvor mye du har brukt i løpet av spilløkten. Dette hjelper deg med å holde deg informert og ta bevisste valg underveis.</p>
+
+<h3>Midlertidig pause</h3>
+<p>Dersom du trenger en kortere pause, kan du aktivere en midlertidig pause på kontoen din. Dette gir deg tid til å tenke deg om, uten at du trenger å gå gjennom en full selveksklusjonsprosess.</p>
+
+<h2>Mindreårige og spilling</h2>
+
+<p>Hos Robocat Casino er vi svært tydelige på at spilling ikke er tillatt for personer under 18 år. Vi gjennomfører strenge aldersverifsieringsprosedyrer for alle nye spillere, og vi forbeholder oss retten til å be om ytterligere dokumentasjon når som helst. Vi oppfordrer foreldre og foresatte til å bruke foreldrekontrollprogramvare for å hindre mindreårige i å få tilgang til spillsider. Eksempler på slike verktøy er Net Nanny, Kaspersky Safe Kids og Norton Family.</p>
+
+<p>Dersom du mistenker at en mindreårig har fått tilgang til en spillkonto, ber vi deg kontakte oss umiddelbart slik at vi kan håndtere saken på en rask og forsvarlig måte.</p>
+
+<h2>Hjelp og støtte</h2>
+
+<p>Vi forstår at spilleproblemer kan ramme hvem som helst, og vi ønsker å gjøre det så enkelt som mulig å søke hjelp. I Norge finnes det flere organisasjoner som tilbyr gratis og konfidensielle tjenester for personer med spilleproblemer:</p>
+
+<ul>
+<li><strong>Hjelpelinjen for spilleproblemer:</strong> Ring 800 800 40 – gratis og tilgjengelig hele døgnet.</li>
+<li><strong>Lotteritilsynet:</strong> Den norske spillmyndigheten som regulerer og overvåker spillmarkedet i Norge.</li>
+<li><strong>Gamblers Anonymous Norge:</strong> Et støttefellesskap for personer som ønsker å slutte med problematisk spilling.</li>
+<li><strong>Kirkens SOS:</strong> Tilbyr samtaler og støtte for personer i krise, inkludert spillavhengighet.</li>
+</ul>
+
+<p>Vi oppfordrer alle som opplever utfordringer knyttet til spilling om å ta kontakt med disse organisasjonene. Det er ingen skam å be om hjelp, og vi støtter deg fullt ut i prosessen.</p>
+
+<h2>Vårt ansvar som operatør</h2>
+
+<p>Som en offisiell og lisensiert spilloperatør i Norge tar vi vårt ansvar på høyeste alvor. Vi trener våre ansatte til å gjenkjenne tegn på problematisk spilleatferd, og vi samarbeider aktivt med norske myndigheter og organisasjoner for å fremme ansvarlig spilling. Vi gjennomfører jevnlige revisjoner av våre ansvarlighetsprogrammer for å sikre at de er oppdaterte og effektive.</p>
+
+<p>Vi forbeholder oss retten til å kontakte spillere dersom vi oppdager atferdsmønstre som kan tyde på problematisk spilling, og vi kan i slike tilfeller midlertidig begrense tilgangen til kontoen inntil situasjonen er avklart.</p>
+
+<h2>Kontakt oss</h2>
+
+<p>Har du spørsmål om ansvarlig spilling, eller ønsker du hjelp til å aktivere ett av våre selvhjelpsverktøy? Ikke nøl med å ta kontakt med vårt kundeserviceteam. Vi er her for å hjelpe deg, og vi behandler alle henvendelser med full diskresjon og respekt. Du kan nå oss via live chat, e-post eller telefon – vi er tilgjengelige for deg.</p>
+
+<p>Hos Robocat Casino er vår misjon klar: Vi ønsker at spilling alltid skal forbli en positiv og trygg opplevelse for alle våre spillere i Norge. Spill ansvarlig – og husk at hjelp alltid er tilgjengelig.</p>
+      </div>
+    </section>
+
+    <div class="container page-updated" id="page-updated"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="trust-row">
+        <a href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer">
+          <img src="../trust badges/gamstop.png" alt="Gamstop">
+        </a>
+        <a href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer">
+          <img src="../trust badges/GamCare.png" alt="GamCare">
+        </a>
+        <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer">
+          <img src="../trust badges/gambleaware.png" alt="BeGambleAware">
+        </a>
+      </div>
+
+      <nav class="footer-links" aria-label="Bunnlenker">
+        <a href="../about-us/">om oss</a>
+        <a href="../contact-us/">kontakt oss</a>
+        <a href="../bonus-policy/">bonuspolicy</a>
+        <a href="../privacy-policy/">personvernpolicy</a>
+        <a href="../responsible-gambling/">ansvarlig spilling</a>
+        <a href="../terms-and-conditions/">vilkår og betingelser</a>
+      </nav>
+
+      <div class="footer-providers">
+        <div class="providers-grid">
+          <div class="provider-card"><img src="../providers/pragmatic-play-logo-png.png" alt="Pragmatic Play"></div>
+          <div class="provider-card"><img src="../providers/quickspin.png" alt="Quickspin"></div>
+          <div class="provider-card"><img src="../providers/playn-go-logo.png" alt="Play'n GO"></div>
+          <div class="provider-card"><img src="../providers/microgaming-logo.png" alt="Microgaming"></div>
+          <div class="provider-card"><img src="../providers/nolimit city.png" alt="Nolimit City"></div>
+          <div class="provider-card"><img src="../providers/netentlogo.png" alt="NetEnt"></div>
+          <div class="provider-card"><img src="../providers/Yggdrasil Gaming_Logo_1.png" alt="Yggdrasil"></div>
+          <div class="provider-card"><img src="../providers/playngo.webp" alt="Playngo"></div>
+          <div class="provider-card"><img src="../providers/evolution.png" alt="Evolution"></div>
+          <div class="provider-card"><img src="../providers/pragmatic-play.png" alt="Pragmatic"></div>
+        </div>
+      </div>
+
+      <p class="copyright">Copyright © 2026 Robocat Casino. Alle rettigheter forbeholdt.</p>
+    </div>
+  </footer>
+
+  <script>
+    const updatedEl = document.getElementById('page-updated');
+    const today = new Date();
+    const norwegianDate = today.toLocaleDateString('nb-NO', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    });
+    updatedEl.textContent = 'Siden ble oppdatert: ' + norwegianDate;
+  </script>
+</body>
+</html>

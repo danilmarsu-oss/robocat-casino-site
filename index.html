@@ -1,0 +1,814 @@
+<!doctype html>
+<html lang="nb-NO">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oppdag Robocat Casino i Norge med 5000 Kr bonus + 200 FS. Vi tilbyr topp spillutvalg, raske betalinger og en trygg casinoopplevelse for norske spillere.">
+  <title>Robocat Casino Norge - 5000 Kr Bonus + 200 FS</title>
+  <link rel="icon" type="image/x-icon" href="robocat images/favicon (4).ico">
+  <style>
+    :root {
+      --header-footer: #4600ae;
+      --header-btn: #39cc20;
+      --cta-btn: #39cc20;
+      --bg-main: #f7f4fb;
+      --text-dark: #1d1238;
+      --card-bg: #ffffff;
+      --muted: #5d4a85;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", "Segoe UI", sans-serif;
+      background: var(--bg-main);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .container {
+      width: min(1120px, 92%);
+      margin: 0 auto;
+    }
+
+    header {
+      background: var(--header-footer);
+      color: #fff;
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      box-shadow: 0 8px 20px rgba(30, 8, 70, 0.25);
+    }
+
+    .header-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 0.7rem 0;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      text-decoration: none;
+      color: #fff;
+      min-width: 0;
+    }
+
+    .brand img {
+      width: 54px;
+      height: 54px;
+      object-fit: contain;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.08);
+      padding: 5px;
+    }
+
+    .brand span {
+      font-weight: 700;
+      letter-spacing: 0.2px;
+      white-space: nowrap;
+    }
+
+    .header-nav {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      margin-left: auto;
+      margin-right: 0.5rem;
+    }
+
+    .header-nav a {
+      color: #e9ddff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .header-nav a:hover {
+      text-decoration: underline;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 0.55rem;
+      flex-shrink: 0;
+    }
+
+    .btn {
+      border: 0;
+      border-radius: 999px;
+      padding: 0.56rem 1rem;
+      font-size: 0.92rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.2s ease, filter 0.2s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.06);
+    }
+
+    .btn-header {
+      background: var(--header-btn);
+      color: #052300;
+    }
+
+    .hero {
+      padding: 2rem 0 1.4rem;
+    }
+
+    .hero-box {
+      background: linear-gradient(140deg, #ffffff 0%, #efe8ff 100%);
+      border-radius: 22px;
+      padding: 1.2rem;
+      box-shadow: 0 14px 28px rgba(67, 21, 143, 0.14);
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+      color: #210e45;
+      line-height: 1.25;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1rem;
+      font-size: clamp(1.7rem, 3.8vw, 2.7rem);
+    }
+
+    .hero-banner {
+      width: 100%;
+      border-radius: 16px;
+      aspect-ratio: 16 / 7;
+      object-fit: cover;
+    }
+
+    .cta-wrap {
+      text-align: center;
+      margin-top: 1rem;
+    }
+
+    .btn-cta {
+      background: var(--cta-btn);
+      color: #052300;
+      padding: 0.95rem 2.3rem;
+      font-size: 1.05rem;
+      animation: pulse 1.75s infinite;
+      box-shadow: 0 8px 24px rgba(57, 204, 32, 0.45);
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.06); }
+      100% { transform: scale(1); }
+    }
+
+    section {
+      padding: 1rem 0 1.4rem;
+    }
+
+    .section-title {
+      margin-bottom: 0.85rem;
+    }
+
+    .games-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 0.8rem;
+    }
+
+    .game-card {
+      background: var(--card-bg);
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 20px rgba(65, 20, 140, 0.12);
+      aspect-ratio: 1 / 1;
+    }
+
+    .game-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .seo-block {
+      background: #fff;
+      border-radius: 16px;
+      padding: 1rem 1rem 1.1rem;
+      box-shadow: 0 8px 20px rgba(65, 20, 140, 0.09);
+    }
+
+    .seo-block h2 {
+      margin-top: 1.05rem;
+      margin-bottom: 0.45rem;
+    }
+
+    .seo-block h3 {
+      margin-top: 0.7rem;
+      margin-bottom: 0.4rem;
+    }
+
+    .seo-block ul,
+    .seo-block ol {
+      padding-left: 1.25rem;
+      margin-top: 0.4rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .seo-table-wrap {
+      overflow-x: auto;
+      margin: 0.5rem 0 0.95rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 560px;
+      margin-top: 0.1rem;
+    }
+
+    th,
+    td {
+      border: 1px solid #e6daf8;
+      padding: 0.6rem;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f1e9ff;
+    }
+
+    .content-image {
+      border-radius: 14px;
+      margin: 0.5rem 0 0.7rem;
+      width: 100%;
+      box-shadow: 0 8px 20px rgba(65, 20, 140, 0.12);
+    }
+
+    .payments-grid,
+    .providers-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .pay-card,
+    .provider-card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 0.6rem;
+      min-height: 74px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 20px rgba(65, 20, 140, 0.09);
+    }
+
+    .pay-card img,
+    .provider-card img {
+      max-height: 46px;
+      width: auto;
+      object-fit: contain;
+    }
+
+    .reviews {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.8rem;
+    }
+
+    .review {
+      background: #fff;
+      border-radius: 14px;
+      padding: 0.95rem;
+      box-shadow: 0 8px 20px rgba(65, 20, 140, 0.09);
+    }
+
+    .review strong {
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+
+    .faq-item {
+      background: #fff;
+      border-radius: 12px;
+      margin-bottom: 0.6rem;
+      box-shadow: 0 6px 16px rgba(65, 20, 140, 0.08);
+      overflow: hidden;
+    }
+
+    .faq-question {
+      width: 100%;
+      border: 0;
+      background: #fff;
+      color: var(--text-dark);
+      text-align: left;
+      font-size: 1rem;
+      font-weight: 700;
+      padding: 0.9rem 1rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.7rem;
+    }
+
+    .faq-question::after {
+      content: "+";
+      font-size: 1.25rem;
+      color: var(--muted);
+    }
+
+    .faq-item.active .faq-question::after {
+      content: "-";
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      padding: 0 1rem;
+      transition: max-height 0.25s ease, padding-bottom 0.25s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 260px;
+      padding-bottom: 0.9rem;
+    }
+
+    .page-updated {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #3a2866;
+      padding: 0.35rem 0 1.2rem;
+    }
+
+    footer {
+      background: var(--header-footer);
+      color: #fff;
+      padding: 1.2rem 0 1rem;
+    }
+
+    .trust-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(120px, 180px));
+      justify-content: center;
+      gap: 0.7rem;
+      margin-bottom: 1rem;
+    }
+
+    .trust-row a {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      padding: 0.55rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 64px;
+    }
+
+    .trust-row img {
+      max-height: 42px;
+      object-fit: contain;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.8rem 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .footer-links a {
+      color: #ebe0ff;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.93rem;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-providers {
+      margin: 0 auto 1rem;
+      max-width: 980px;
+    }
+
+    .footer-providers .provider-card {
+      background: rgba(255, 255, 255, 0.14);
+      box-shadow: none;
+      min-height: 62px;
+    }
+
+    .copyright {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #f2e9ff;
+      margin: 0;
+    }
+
+    @media (max-width: 900px) {
+      .games-grid { grid-template-columns: repeat(3, 1fr); }
+      .reviews { grid-template-columns: 1fr; }
+
+      .header-inner { padding: 0.45rem 0; }
+
+      .brand img {
+        width: 36px;
+        height: 36px;
+        border-radius: 7px;
+        padding: 3px;
+      }
+
+      .brand span,
+      .header-nav { display: none; }
+
+      .header-actions .btn {
+        padding: 0.42rem 0.72rem;
+        font-size: 0.8rem;
+      }
+    }
+
+    @media (max-width: 560px) {
+      .games-grid { grid-template-columns: repeat(2, 1fr); }
+
+      .trust-row {
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+
+      .hero { padding-top: 1.1rem; }
+
+      .hero-box {
+        border-radius: 16px;
+        padding: 0.8rem;
+      }
+
+      table { min-width: 480px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Robocat Casino hjem">
+        <img src="robocat images/robocat logo.webp" alt="Robocat logo">
+        <span>Robocat</span>
+      </a>
+
+      <nav class="header-nav" aria-label="Hovedmeny">
+        <a href="bonus/">Kampanjer</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="login/" class="btn btn-header">Logg inn</a>
+        <a href="/go/" class="btn btn-header">Register</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-box">
+        <h1>Robocat Casino</h1>
+        <img class="hero-banner" src="robocat images/robocat.webp" alt="Robocat Casino banner">
+        <div class="cta-wrap">
+          <a href="/go/" class="btn btn-cta">Spill nå!</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="kampanjer">
+      <div class="container">
+        <h2 class="section-title">Populære spill</h2>
+        <div class="games-grid">
+          <article class="game-card"><img src="game images/aviatorlogo.png" alt="Aviator"></article>
+          <article class="game-card"><img src="game images/crazytime.webp" alt="Crazy Time"></article>
+          <article class="game-card"><img src="game images/poker arena.jpeg" alt="Poker Arena"></article>
+          <article class="game-card"><img src="game images/blackjackpro.png" alt="Blackjack Pro"></article>
+          <article class="game-card"><img src="game images/roulette live.avif" alt="Roulette Live"></article>
+          <article class="game-card"><img src="game images/lightning dice.jpg" alt="Lightning Dice"></article>
+          <article class="game-card"><img src="game images/baccaratvip.jpg" alt="Baccarat VIP"></article>
+          <article class="game-card"><img src="game images/bookofgold.png" alt="Book of Gold"></article>
+          <article class="game-card"><img src="game images/megaslots.jpeg" alt="Mega Slots"></article>
+          <article class="game-card"><img src="game images/jackpotcity.webp" alt="Jackpot City"></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container seo-block">
+        <p>Velkommen til Robocat Casino - vår moderne spillplattform laget spesielt for Norge. Hos oss i Robocat tilbyr vi en trygg og underholdende opplevelse med et bredt utvalg av spill. Vi fokuserer på kvalitet, sikkerhet og brukervennlighet for spillere i Norge, slik at du alltid kan føle deg komfortabel når du spiller hos oss.</p>
+
+        <h2>Robocat Casino - Moderne spillopplevelse i Norge</h2>
+        <p>Hos oss presenterer vi Robocat Casino som en komplett spillplattform utviklet med fokus på brukere i Norge. Vår erfaring med casino robocat viser at siden tilbyr et bredt spekter av underholdning, inkludert tusenvis av spilleautomater, live casino og bettingmuligheter. Plattformen er kjent for sitt moderne design og brukervennlighet, noe som gjør det enkelt for spillere i Norge å navigere og finne sine favorittspill. Vi tilbyr også attraktive bonuser, inkludert velkomsttilbud og jevnlige kampanjer som gir ekstra verdi til spillopplevelsen. Med støtte for flere betalingsmetoder og mobilvennlig løsning sørger vi for at robocat casino fungerer sømløst for spillere i Norge, både på desktop og mobil.</p>
+
+        <div class="seo-table-wrap">
+          <table>
+            <tr>
+              <th>Funksjon</th>
+              <th>Detaljer</th>
+            </tr>
+            <tr>
+              <td>Nettside</td>
+              <td>robocatcasino.no</td>
+            </tr>
+            <tr>
+              <td>Spillutvalg</td>
+              <td>5000+ spill (automater, live casino, bordspill)</td>
+            </tr>
+            <tr>
+              <td>Velkomstbonus</td>
+              <td>Opptil 100% bonus + gratisspinn</td>
+            </tr>
+            <tr>
+              <td>Plattform</td>
+              <td>Mobil og desktop optimalisert</td>
+            </tr>
+            <tr>
+              <td>Betalingsmetoder</td>
+              <td>Flere løsninger tilgjengelig i Norge</td>
+            </tr>
+            <tr>
+              <td>Målgruppe</td>
+              <td>Spillere i Norge</td>
+            </tr>
+          </table>
+        </div>
+
+        <h2>Registrering hos Robocat Casino</h2>
+        <img class="content-image" src="robocat images/robocat registration.webp" alt="Registrering hos Robocat Casino">
+        <p>Vi gjør det enkelt å komme i gang med Robocat Casino for spillere i Norge. Registreringsprosessen er rask, sikker og tilpasset våre brukere, slik at du kan begynne å spille på få minutter. Hos oss i robocat legger vi vekt på en smidig opplevelse, hvor du enkelt kan opprette konto og få tilgang til hele spillutvalget. Plattformen er optimalisert for Norge, noe som betyr at registreringen fungerer like godt på mobil som på desktop. Vi sørger også for at alle nødvendige sikkerhetstiltak er på plass, slik at dine opplysninger alltid er beskyttet når du registrerer deg hos oss.</p>
+        <ul>
+          <li>Gå til robocatcasino.no og klikk på "Registrer"</li>
+          <li>Fyll inn nødvendig informasjon i skjemaet</li>
+          <li>Bekreft e-postadresse eller telefonnummer</li>
+          <li>Fullfør verifisering av konto ved behov</li>
+          <li>Gjør ditt første innskudd og begynn å spille</li>
+        </ul>
+
+        <h2>Bonuser og kampanjer hos Robocat Casino</h2>
+        <img class="content-image" src="robocat images/robocat bonuses.webp" alt="Bonuser og kampanjer hos Robocat Casino">
+        <p>Hos oss finner du et bredt utvalg av bonuser og kampanjer på Robocat Casino, spesielt tilpasset spillere i Norge. Vi sørger for at våre tilbud gir ekte verdi, enten du er ny spiller eller allerede aktiv hos oss. Med casino robocat får du tilgang til både klassiske velkomstbonuser og moderne kryptotilbud, noe som gir fleksibilitet for spillere i Norge. Vi oppdaterer jevnlig våre kampanjer slik at du alltid har noe nytt å glede deg til. Enten det er gratisspinn, reload-bonuser eller spesielle turneringer, fokuserer vi på å gi en spennende og variert spillopplevelse for alle i Norge.</p>
+
+        <div class="seo-table-wrap">
+          <table>
+            <tr>
+              <th>Bonus</th>
+              <th>Detaljer</th>
+            </tr>
+            <tr>
+              <td>Velkomstbonus</td>
+              <td>100% opptil 5 000 kr + 200 gratisspinn + 1 Bonus Crab</td>
+            </tr>
+            <tr>
+              <td>Krypto velkomstbonus</td>
+              <td>200% opptil 3 000 USDT</td>
+            </tr>
+            <tr>
+              <td>Helge reload bonus</td>
+              <td>60% opptil 1 000 USDT</td>
+            </tr>
+            <tr>
+              <td>Turnering</td>
+              <td>Spinoleague med premiepotte på 144 000 000 kr</td>
+            </tr>
+            <tr>
+              <td>Spillkampanje</td>
+              <td>Gold Saloon Roulette: Lucky Number</td>
+            </tr>
+            <tr>
+              <td>Spesialtilbud</td>
+              <td>Amusnet CASH BOMB kampanje</td>
+            </tr>
+            <tr>
+              <td>Tilgjengelighet</td>
+              <td>Tilpasset spillere i Norge</td>
+            </tr>
+          </table>
+        </div>
+
+        <h2>Spillutvalg hos Robocat Casino</h2>
+        <img class="content-image" src="robocat images/robocat games.webp" alt="Spillutvalg hos Robocat Casino">
+        <p>Hos oss tilbyr Robocat Casino et imponerende spillutvalg utviklet for spillere i Norge. Vi har samlet tusenvis av titler fra ledende leverandører for å sikre variasjon, kvalitet og underholdning. Enten du foretrekker klassiske bordspill, moderne spilleautomater eller realistiske live casino-opplevelser, finner du alt på ett sted. Med robocat får du en plattform som er optimalisert for Norge, hvor spillene fungerer sømløst på både mobil og desktop. Vi oppdaterer kontinuerlig vårt bibliotek for å gi spillere i Norge tilgang til de nyeste titlene og innovative spillopplevelser. Vårt mål er å gi en komplett og engasjerende casinoopplevelse for alle.</p>
+        <ul>
+          <li>Spilleautomater</li>
+          <li>Live casino</li>
+          <li>Bordspill</li>
+          <li>Jackpotspill</li>
+          <li>Kryptospill</li>
+        </ul>
+
+        <h3>Spilleautomater</h3>
+        <p>Vi tilbyr et stort utvalg av spilleautomater hos Robocat Casino, med alt fra klassiske slots til moderne videoslots med avanserte funksjoner. Spillere i Norge kan nyte ulike temaer, bonusrunder og gratisspinn som gir ekstra spenning. Automatene er designet for å være brukervennlige og tilgjengelige på alle enheter. Vi sørger for at vårt utvalg alltid er oppdatert, slik at spillere i Norge får tilgang til de nyeste og mest populære spillene på markedet.</p>
+
+        <h3>Live casino</h3>
+        <p>Live casino gir en autentisk opplevelse hvor vi bringer ekte dealere direkte til skjermen din. Hos oss i robocat casino kan spillere i Norge delta i spill som roulette, blackjack og baccarat i sanntid. Denne delen av plattformen gir en sosial og realistisk følelse som ligner et fysisk casino. Vi samarbeider med anerkjente leverandører for å sikre høy kvalitet og stabil streaming for spillere i Norge.</p>
+
+        <h3>Bordspill</h3>
+        <p>For spillere som foretrekker klassiske casinoopplevelser, tilbyr vi et bredt utvalg av bordspill. Hos oss finner du ulike varianter av blackjack, roulette og baccarat, tilpasset spillere i Norge. Disse spillene kombinerer strategi og underholdning, og passer både nybegynnere og erfarne spillere. Plattformen er optimalisert for Norge, slik at du enkelt kan finne og spille dine favoritter uten komplikasjoner.</p>
+
+        <h3>Jackpotspill</h3>
+        <p>Jackpotspill gir muligheten til å vinne store premier, og vi tilbyr flere progressive jackpots hos Robocat Casino. Spillere i Norge kan delta i spill hvor premiepottene vokser kontinuerlig, noe som skaper ekstra spenning. Vi sørger for at jackpotspillene er lett tilgjengelige og tydelig presentert, slik at spillere i Norge alltid kan finne de største gevinstmulighetene på plattformen.</p>
+
+        <h3>Kryptospill</h3>
+        <p>Med fokus på moderne løsninger tilbyr vi også kryptospill hos Robocat Casino. Spillere i Norge kan bruke kryptovaluta for raskere og mer fleksible transaksjoner. Denne typen spill gir en innovativ opplevelse og åpner for nye muligheter innen online casino. Vi jobber kontinuerlig med å forbedre vårt kryptotilbud slik at det møter behovene til spillere i Norge.</p>
+
+        <h2>Spilleleverandører hos Robocat Casino</h2>
+        <p>Hos oss samarbeider Robocat Casino med noen av de mest anerkjente spillutviklerne i bransjen for å gi spillere i Norge en førsteklasses opplevelse. Vi fokuserer på kvalitet, innovasjon og variasjon, slik at alle spillere finner noe som passer deres preferanser. Med robocat får du tilgang til spill fra leverandører som er kjent for høy grafisk kvalitet, spennende funksjoner og rettferdig spill. Plattformen er utviklet med tanke på Norge, noe som betyr at alle spill fungerer sømløst og er tilpasset lokale behov. Vi oppdaterer kontinuerlig vårt utvalg av leverandører for å sikre at spillere i Norge alltid får tilgang til de nyeste og mest populære spillene på markedet.</p>
+        <ul>
+          <li>NetEnt</li>
+          <li>Microgaming</li>
+          <li>Play'n GO</li>
+          <li>Pragmatic Play</li>
+          <li>Evolution Gaming</li>
+          <li>Amusnet</li>
+          <li>Quickspin</li>
+          <li>Yggdrasil</li>
+          <li>Red Tiger</li>
+          <li>BGaming</li>
+        </ul>
+
+        <h2>Robocat VIP Club</h2>
+        <img class="content-image" src="robocat images/robocat vip club.webp" alt="Robocat VIP Club">
+        <p>Hos oss tilbyr Robocat Casino et eksklusivt VIP-program designet for lojale spillere i Norge. Vi belønner våre mest aktive brukere med ekstra fordeler, personlig service og unike kampanjer som ikke er tilgjengelige for alle. Med casino robocat får VIP-medlemmer tilgang til høyere bonuser, raskere uttak og skreddersydde tilbud som gir en mer personlig spillopplevelse. Programmet er utviklet med fokus på spillere i Norge, slik at fordelene er relevante og verdifulle. Vi jobber kontinuerlig med å forbedre VIP-opplevelsen og sikre at våre medlemmer får maksimal verdi og underholdning hver gang de spiller hos oss.</p>
+
+        <h2>Mobilspill hos Robocat Casino</h2>
+        <p>Hos oss er mobilspill en viktig del av opplevelsen på Robocat Casino, spesielt tilpasset spillere i Norge som ønsker fleksibilitet og tilgjengelighet. Vi har utviklet en plattform som fungerer sømløst på både smarttelefoner og nettbrett, slik at du kan spille hvor som helst i Norge uten begrensninger. Med robocat får du tilgang til hele spillutvalget direkte fra mobilen, inkludert spilleautomater, live casino og bordspill.</p>
+        <p>Vi sørger for at alle funksjoner er optimalisert for berøringsskjermer, med rask navigasjon og brukervennlig design. Spillene lastes raskt og tilpasser seg automatisk skjermstørrelsen, noe som gir en jevn og stabil opplevelse for spillere i Norge. Du trenger ikke å laste ned noen app - alt er tilgjengelig direkte i nettleseren.</p>
+        <p>Vi støtter også sikre og raske betalingsmetoder som fungerer perfekt på mobile enheter i Norge. Enten du spiller hjemme eller på farten, gir robocat casino deg full kontroll og en komplett spillopplevelse rett i lomma.</p>
+
+        <h2>Kundeservice hos Robocat Casino</h2>
+        <p>Hos oss er kundeservice en viktig del av opplevelsen på Robocat Casino, og vi sørger for at spillere i Norge alltid får rask og profesjonell hjelp. Vi tilbyr flere kontaktmuligheter slik at du enkelt kan få svar på spørsmål eller løse eventuelle problemer. Med casino robocat fokuserer vi på tilgjengelighet og kvalitet, slik at spillere i Norge føler seg trygge og ivaretatt til enhver tid. Vårt supportteam er klart til å hjelpe deg med alt fra konto til betalinger.</p>
+        <ul>
+          <li>E-post: support@robocatcasino.no</li>
+          <li>Live chat direkte på nettsiden</li>
+          <li>Rask responstid for spillere i Norge</li>
+          <li>Hjelp med konto, innskudd og uttak</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">Anmeldelser av Robocat Casino</h2>
+        <div class="reviews">
+          <article class="review">
+            <strong>⭐⭐⭐⭐⭐</strong>
+            <p>Vi har hatt en veldig god opplevelse med Robocat Casino så langt. Nettsiden fungerer perfekt i Norge, og det er enkelt å finne spill og bonuser. Uttak gikk raskt, og kundeservice svarte raskt på spørsmål. Alt i alt en veldig positiv opplevelse.</p>
+          </article>
+          <article class="review">
+            <strong>⭐⭐⭐⭐</strong>
+            <p>Vi liker spesielt godt utvalget av spill hos robocat. Det er mange moderne slots og et bra live casino. Plattformen fungerer bra på mobil i Norge, men vi skulle gjerne sett enda flere kampanjer. Likevel er dette et solid valg.</p>
+          </article>
+          <article class="review">
+            <strong>⭐⭐⭐⭐⭐</strong>
+            <p>Casino robocat imponerer oss med brukervennlighet og design. Registreringen var enkel, og vi kunne begynne å spille med en gang. Vi setter også pris på at siden er godt tilpasset spillere i Norge. Anbefales for både nye og erfarne spillere.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">Ofte stilte spørsmål om Robocat Casino</h2>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">Er Robocat Casino tilgjengelig i Norge?</button>
+          <div class="faq-answer">
+            <p>Ja, vi tilbyr Robocat Casino spesielt tilpasset spillere i Norge. Plattformen fungerer sømløst, og vi sørger for at alle funksjoner er relevante for brukere i Norge.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">Hvordan registrerer vi oss hos robocat?</button>
+          <div class="faq-answer">
+            <p>Vi registrerer oss enkelt ved å fylle ut et skjema på nettsiden, bekrefte konto og deretter gjøre et innskudd. Prosessen er rask og designet for spillere i Norge.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">Hvilke spill finner vi på casino robocat?</button>
+          <div class="faq-answer">
+            <p>Vi tilbyr et bredt utvalg av spill, inkludert spilleautomater, live casino, bordspill og jackpotspill. Utvalget er utviklet for å passe spillere i Norge.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">Hvilke bonuser tilbyr dere?</button>
+          <div class="faq-answer">
+            <p>Vi tilbyr velkomstbonuser, gratisspinn, reload-bonuser og kampanjer. Våre tilbud oppdateres jevnlig for å gi ekstra verdi til spillere i Norge.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">Kan vi spille på mobil?</button>
+          <div class="faq-answer">
+            <p>Ja, vi har en fullt optimalisert mobilplattform slik at spillere i Norge kan spille direkte fra mobilen uten å laste ned en app.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" type="button">Hvordan kontakter vi kundeservice?</button>
+          <div class="faq-answer">
+            <p>Vi kan kontakte kundeservice via e-post eller live chat. Supportteamet er tilgjengelig for spillere i Norge og hjelper med alle typer spørsmål.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2 class="section-title">Betalingsmetoder</h2>
+        <div class="payments-grid">
+          <div class="pay-card"><img src="payment methods/bitcoin-method.png" alt="Bitcoin"></div>
+          <div class="pay-card"><img src="payment methods/neteller-method.png" alt="Neteller"></div>
+          <div class="pay-card"><img src="payment methods/trustly-method.webp" alt="Trustly"></div>
+          <div class="pay-card"><img src="payment methods/mastercard-method.svg" alt="Mastercard"></div>
+          <div class="pay-card"><img src="payment methods/payoneer-method.png" alt="Payoneer"></div>
+          <div class="pay-card"><img src="payment methods/skrill-method.png" alt="Skrill"></div>
+          <div class="pay-card"><img src="payment methods/visa-method.png" alt="Visa"></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container page-updated" id="page-updated"></div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="trust-row">
+        <a href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer">
+          <img src="trust badges/gamstop.png" alt="Gamstop">
+        </a>
+        <a href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer">
+          <img src="trust badges/GamCare.png" alt="GamCare">
+        </a>
+        <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer">
+          <img src="trust badges/gambleaware.png" alt="BeGambleAware">
+        </a>
+      </div>
+
+      <nav class="footer-links" aria-label="Bunnlenker">
+        <a href="about-us/">om oss</a>
+        <a href="contact-us/">kontakt oss</a>
+        <a href="bonus-policy/">bonuspolicy</a>
+        <a href="privacy-policy/">personvernpolicy</a>
+        <a href="responsible-gambling/">ansvarlig spilling</a>
+        <a href="terms-and-conditions/">vilkår og betingelser</a>
+      </nav>
+
+      <div class="footer-providers">
+        <div class="providers-grid">
+          <div class="provider-card"><img src="providers/pragmatic-play-logo-png.png" alt="Pragmatic Play"></div>
+          <div class="provider-card"><img src="providers/quickspin.png" alt="Quickspin"></div>
+          <div class="provider-card"><img src="providers/playn-go-logo.png" alt="Play'n GO"></div>
+          <div class="provider-card"><img src="providers/microgaming-logo.png" alt="Microgaming"></div>
+          <div class="provider-card"><img src="providers/nolimit city.png" alt="Nolimit City"></div>
+          <div class="provider-card"><img src="providers/netentlogo.png" alt="NetEnt"></div>
+          <div class="provider-card"><img src="providers/Yggdrasil Gaming_Logo_1.png" alt="Yggdrasil"></div>
+          <div class="provider-card"><img src="providers/playngo.webp" alt="Playngo"></div>
+          <div class="provider-card"><img src="providers/evolution.png" alt="Evolution"></div>
+          <div class="provider-card"><img src="providers/pragmatic-play.png" alt="Pragmatic"></div>
+        </div>
+      </div>
+
+      <p class="copyright">Copyright © 2026 Robocat Casino. Alle rettigheter forbeholdt.</p>
+    </div>
+  </footer>
+
+  <script>
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach((item) => {
+      const btn = item.querySelector('.faq-question');
+      btn.addEventListener('click', () => {
+        item.classList.toggle('active');
+      });
+    });
+
+    const updatedEl = document.getElementById('page-updated');
+    const today = new Date();
+    const norwegianDate = today.toLocaleDateString('nb-NO', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    });
+    updatedEl.textContent = `Siden ble oppdatert: ${norwegianDate}`;
+  </script>
+</body>
+</html>
